@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusSplit — Group Expense Management & Settlement</title>
+  <meta name="description" content="Mathematically sound, explainable group expense management and settlement engine for campus events and student groups.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/index.css">
+
+  <!-- React 18 UMD Vendors -->
+  <script src="/vendor/react.development.js"></script>
+  <script src="/vendor/react-dom.development.js"></script>
+
+  <!-- ES Module Import Map -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "/vendor/react.esm.js",
+      "react-dom": "/vendor/react-dom.esm.js",
+      "react-dom/client": "/vendor/react-dom.esm.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root">
+    <div style="display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif; color:#94a3b8; background:#0f172a;">
+      <div>Initializing CampusSplit Engine...</div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
